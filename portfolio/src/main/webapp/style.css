@@ -55,10 +55,15 @@ header{
     padding-top: 300px;
     font-size: 17px;
 	font-weight: 300;
+    display: block;
 }
 
 
 /*================= FOOTER =================*/
+.endnote{
+    display: block;
+}
+
 .footer li{
     list-style: none;
     float: left;
@@ -74,4 +79,8 @@ header{
 	background: #000;
 	color: #fff;
 	line-height: 44px;
+}
+
+.submit{
+    display: block;
 }
