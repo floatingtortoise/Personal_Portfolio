@@ -4,16 +4,43 @@
     <meta charset="UTF-8">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/908160b183.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </head>
+
   <body>
-    <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
-      <div id="greeting-container"></div>
-    </div>
+      <header class="header">
+        <div class="wrapper">
+          <nav class="main-nav">
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About me</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">Thoughts</a></li>
+                  <li><a href="#">Contact me</a></li>
+              </ul>
+          </nav>
+          <img src="https://media.istockphoto.com/vectors/cute-hanging-sloth-vector-id1093750176?k=20&m=1093750176&s=612x612&w=0&h=c9jgY50j2Kzj6y23dMTypnlPpa-TkevMNObLz7e94MQ=" alt="photo of me" class="profilepic">
+        </div>
+      </header>
+
+      <main>
+
+            <p class="selfintro">Hi, I'm Bella Li! I am an undergraduate student at Emory Univeristy studying Computer Science and Philosophy.</p>
+
+      </main>
+
+      <footer class="footer">
+        <div class="wrapper">
+          <p class="endnote">Great to meet you! Please follow me on social media so we can keep in touch. Cheers!</p>
+          <ul>
+              <li><a href="#" class="INSTA"><i class="fa-brands fa-instagram-square"></i></a></li>
+              <li><a href="#" class="LINK"><i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a href="#" class="GIT"><i class="fa-brands fa-github-square"></i></a></li>
+              <li><a href="#" class="FB"><i class="fa-brands fa-facebook-square"></i></a></li>
+          </ul>
+          <p class="copyright"></p>
+        </div>
+      </footer>
   </body>
 </html>
