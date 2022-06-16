@@ -61,26 +61,38 @@ header{
 
 /*================= FOOTER =================*/
 .endnote{
-    display: block;
+    line-height: 80px;
+    text-align: center;
 }
 
-.footer li{
+
+
+.social li{
     list-style: none;
     float: left;
     margin-left: 90px;
-    padding-left: 30px;
+    padding-left: 40px;
 
 }
-.footer a{
-	display: block;
+.social a{
 	width: 44px;
 	height: 44px;
-	border-radius: 50%;
+	border-radius: 80%;
 	background: #000;
 	color: #fff;
 	line-height: 44px;
+    text-align: center;
+    display: block;
 }
 
 .submit{
+    float: left;
     display: block;
+    margin-top: 100px;
+}
+
+.copyright{
+    float: left;
+    display: block;
+    margin-top: 150px;
 }
