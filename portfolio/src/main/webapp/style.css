@@ -1,9 +1,77 @@
-#content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
+/*================= BASE STYLE =================*/
+body{
+	color: black;
+	font-family: Arial;
+	font-size: 15px;
+	line-height: 1.4;
+}
+.wrapper{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
 }
 
-#greeting-container {
-  margin-top: 20px;
+/*================= HEADER =================*/
+
+header{
+    height: 300px;
+    width: 100%;
+    background-color: #FEFEE3;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+}
+
+.main-nav li{
+    float: left;
+    padding-left: 20px;
+    margin-left: 90px;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.main-nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+.main-nav li a:hover {
+	text-decoration: double;
+}
+
+.profilepic{
+    width: 20%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*================= MAIN =================*/
+
+.selfintro{
+    padding-top: 300px;
+    font-size: 17px;
+	font-weight: 300;
+}
+
+
+/*================= FOOTER =================*/
+.footer li{
+    list-style: none;
+    float: left;
+    margin-left: 90px;
+    padding-left: 30px;
+
+}
+.footer a{
+	display: block;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background: #000;
+	color: #fff;
+	line-height: 44px;
 }
