@@ -1,52 +1,85 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/908160b183.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-  </head>
 
-  <body>
-      <header class="header">
-        <div class="wrapper">
-          <nav class="main-nav">
-              <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About me</a></li>
-                  <li><a href="#">Portfolio</a></li>
-                  <li><a href="#">Thoughts</a></li>
-                  <li><a href="#">Contact me</a></li>
-              </ul>
-          </nav>
-          <img src="https://media.istockphoto.com/vectors/cute-hanging-sloth-vector-id1093750176?k=20&m=1093750176&s=612x612&w=0&h=c9jgY50j2Kzj6y23dMTypnlPpa-TkevMNObLz7e94MQ=" alt="photo of me" class="profilepic">
-        </div>
-      </header>
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/908160b183.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Latin&family=Raleway:wght@350;400&display=swap" rel="stylesheet">
+</head>
 
-      <main>
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <a href="#" class="return-home"><i class="fa-solid fa-house-chimney fa-2x"></i></a>
+      <nav class="main-nav">
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </nav>
+    </div>
+  </header>
 
-            <p class="selfintro">Hi, I'm Bella Li! I am an undergraduate student at Emory Univeristy studying Computer Science and Philosophy.</p>
+  <main>
+    <section class="intro">
+      <div class="rect-space"></div>
+      <div class="img-space"></div>
+      <div class="selfintro wrapper">
+        <h2>Bella's <b>Portfolio</b></h2>
+        <h4>Hi, I'm Bella Li! I am an undergraduate student studying Computer Science and Philosophy at Emory Univeristy.</h4>
+      </div>
+      <div class="wrapper">
+      <a href="#" class="more-intro">Learn more</a>
+      </div>
+    </section>
 
-      </main>
+    <section class="transition wrapper">
+      <div class="line"></div>
+      <h2 class="my-motif">I believe in...</h2>
+      <span class="arrow"></span>
+      <h5 class="port-direct">My Portfolio</h5>
+    </section>
 
-      <footer class="footer">
-        <div class="wrapper">
-          <p class="endnote">Great to meet you! Please follow me on social media so we can keep in touch. Cheers!</p>
-          <ul class="social">
-              <li><a href="#" class="INSTA"><i class="fa-brands fa-instagram-square fa-3x"></i></a></li>
-              <li><a href="#" class="LINK"><i class="fa-brands fa-linkedin"></i></a></li>
-              <li><a href="#" class="GIT"><i class="fa-brands fa-github-square"></i></a></li>
-              <li><a href="#" class="FB"><i class="fa-brands fa-facebook-square"></i></a></li>
-          </ul>
-            <form action="/form-handler" method="POST" class="submit">
-                <p>Enter some text here:</p>
-                <textarea name="text-input">hello world</textarea>
-                <br/>
-                <input type="submit" />
-            </form>
-          <p class="copyright">© Yiling Li</p>
-        </div>
-      </footer>
-  </body>
+    <section class="portfolio wrapper">
+      <div class="port-left">
+        <a href="#" class="proj">
+          <h3>Project 1</h3>
+        </a>
+      </div>
+      <div class="port-right">
+        <a href="#" class="proj">
+          <h3>Project 2</h3>
+        </a>
+      </div>
+      <div class="port-left">
+        <a href="#" class="proj">
+          <h3>Project 3</h3>
+        </a>
+      </div>
+
+      <a href="#" class="more-portfolio">See more!</a>
+    </section>
+  </main>
+
+  <footer class="footer wrapper">
+    <p class="endnote">Great to meet you! Please follow me on social media so we can keep in touch. Cheers!</p>
+    <ul class="social">
+      <li><a href="#" class="INSTA"><i class="fa-brands fa-instagram-square fa-3x"></i></a></li>
+      <li><a href="#" class="LINK"><i class="fa-brands fa-linkedin"></i></a></li>
+      <li><a href="#" class="GIT"><i class="fa-brands fa-github-square"></i></a></li>
+      <li><a href="#" class="FB"><i class="fa-brands fa-facebook-square"></i></a></li>
+    </ul>
+    <form action="/form-handler" method="POST" class="submit">
+      <p>Enter some text here:</p>
+      <textarea name="text-input">hello world</textarea>
+      <br />
+      <input type="submit" />
+    </form>
+    <p class="copyright">© Yiling Li</p>
+  </footer>
+  </div>
+</body>
+
 </html>
