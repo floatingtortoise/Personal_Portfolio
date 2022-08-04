@@ -1,9 +1,229 @@
-#content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
-}
+body {
+    color: black;
+    font-family: Arial;
+    font-size: 15px;
+    height: 100%;
+    background: #E7E7E7;
+    margin: 0;
+  }
+  
+  .wrapper {
+    width: 80%;
+    margin: 0 auto 0;
+    text-align: center;
+  }
+  
+  header{
+    height: 80px;
+    background: black;
+    border-bottom: 1px solid white;
+  }
+  
+  header .wrapper{
+    margin: auto;
+  }
+  
+  .return-home{
+    float: left;
+  }
+  
+  .main-nav{
+    float: right;
+  }
+  
+  .fa-solid{
+    color: #E7E7E7;
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .rect-space{
+    height: 390px;
+    background: #161f35;
+  }
+  
+  .img-space{
+    background-image: url(photo_me.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 425px;
+    height: 425px;
+    margin: -310px auto 0;
+    border-radius: 50% !important;
+    border-color: #E7E7E7;
+    border-width: 11px;
+    border-style: solid;
+  }
+  
+  .selfintro{
+    margin-top: 60px;
+  }
+  
+  .selfintro h2{
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    font-size: 60px;
+    font-weight: 300;
+  }
+  
+  .selfintro h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    letter-spacing: 0.8px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  
+  .more-intro{
+    display: block;
+    margin: 60px auto 100px;
+    width: max-content;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    font-weight: 900;
+    color: #313131;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-style: solid none solid;
+    padding: 10px 0 10px;
+    border-width: 2px;
+  }
+  
+  .transition{
+    display: box;
+    margin: 150px auto 0;
+    width: 70%;
+  }
+  
+  .line{
+    background: grey;
+    height: 1px;
+  }
+  
+  .my-motif{
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1;
+  }
 
-#greeting-container {
-  margin-top: 20px;
-}
+  #m1{
+    font-size: 25px;
+    font-weight: 320;
+  }
+
+  #m2{
+    font-size: 31px;
+    font-weight: 520;
+  }
+  
+  .arrow{
+    background-image: url(https://www.techpromarketing.com/wp-content/uploads/2021/12/down-arrow-png-transparent-down-arrow-images-510787.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 130px;
+    height: 170px;
+    margin: 100px auto 0;
+  }
+  
+  .port-direct{
+    margin: 50px auto 80px;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 300;
+    transform: scaleX(1.2);
+  }
+  #proj1{
+      margin-left: 0;
+  }
+
+  .proj{
+    display: inline-block;
+    width: 25%;
+    aspect-ratio: 7/6;
+    padding: 1%;
+    padding-top: 2%;
+    margin-left: 2%;
+    background: #161f35;
+    text-decoration: none;
+  }
+  
+  .proj p{
+    color: #E7E7E7;    
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+
+  .more-portfolio{
+    margin: 40px auto 0;
+    display: block;
+  }
+  
+  
+  .footer{
+    background: rgba(0, 0, 0, .65)url(https://wallpapercave.com/wp/wp8521301.jpg);
+    background-blend-mode: darken;
+    filter: grayscale(90%);
+    background-repeat: round;
+    background-size: cover;
+    color:white;
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;        
+  }
+
+  .endnote {
+    margin-top: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .footer ul {
+    display: flex;
+    margin: 5% 0 0;
+  }
+  
+  .footer li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 15%;
+  }
+  
+  .footer a{
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: #E7E7E7;
+  }
+  
+  .submit {
+    display: block;
+  }
+
+  form{
+      display: block;
+      margin-top: 50px;
+  }
+  .copyright{
+    margin-top: 50px;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 350;
+    float: right;
+    display: block;
+    color: grey;
+  }
