@@ -26,3 +26,27 @@ function addRandomGreeting() {
   const greetingContainer = document.getElementById('greeting-container');
   greetingContainer.innerText = greeting;
 }
+
+async function getTime(){
+    const response = await fetch('/time-record');
+    const time = await response.text();
+    document.getElementById('timeShown').innerText = time;
+}
+ 
+
+async function getInfo(){
+    const params = new URLSearchParams();
+    const email = document.getElementById("email-id").value;
+    console.log(email);
+    params.append('email', email);
+    
+    const response = await fetch("/info-handler", {method: 'POST', body: params});
+
+    const response = await fetch("/info-handler");
+    const info = await response.json();
+    var displayedInfo = document.getElementById("displayedMessage");
+    console.log(info);
+    displayedInfo.innerHTML = '';
+    // displayedInfo += 'you are sending \"' + info.message + '\"' + "with the email" + info.email + 'at' + info.time;
+    displayedInfo.innerHTML += info.message;
+}

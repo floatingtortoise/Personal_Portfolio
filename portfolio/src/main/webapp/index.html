@@ -9,17 +9,17 @@
   <script src="script.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anek+Latin&family=Raleway:wght@350;400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anek+Latin&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth@8..144,100;8..144,130&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Quintessential&family=Titillium+Web:ital,wght@1,320; 1,520&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header class="header">
     <div class="wrapper">
-      <a href="#" class="return-home"><i class="fa-solid fa-house-chimney fa-2x"></i></a>
+      <a href="#" class="return-home"><i class="fa-solid fa-house-chimney fa-3x"></i></a>
       <nav class="main-nav">
-        <i class="fa-solid fa-bars fa-2x"></i>
+        <i class="fa-solid fa-bars fa-3x"></i>
       </nav>
     </div>
   </header>
@@ -30,55 +30,71 @@
       <div class="img-space"></div>
       <div class="selfintro wrapper">
         <h2>Bella's <b>Portfolio</b></h2>
-        <h4>Hi, I'm Bella Li! I am an undergraduate student studying Computer Science and Philosophy at Emory Univeristy.</h4>
-      <a href="#" class="more-intro">Learn more</a>
+        <h4>Hi! I'm Bella Li, an undergraduate student studying Computer Science and Philosophy at Emory Univeristy.</h4>
+      <a href="#" class="more-intro"> Learn more </a>
       </div>
     </section>
 
     <section class="transition wrapper">
       <div class="line"></div>
-      <h2 class="my-motif"> "On the chairlift ride, the mountain was closing and no one was around, and I was watching the sun go down, and it just hit me. I was like, 'this is it, these are the signs.'" A snowboarder said upon his retirement. <br><br><b>I think, and build,<br>waiting for the 'this is it' moment to come.<b> </h2>
+      <h3 class="my-motif" id="m1"> "On the chairlift ride, the mountain was closing and no one was around, and I was watching the sun go down, and it just hit me. I was like, 'this is it, these are the signs.'" A snowboarder said upon his retirement.</h3>
+      <h2 class="my-motif" id="m2">I think, and build,<br>waiting for the 'this is it' moment to come.</h2>
       <div class="arrow"></div>
       <p class="port-direct">~ My Portfolio ~</p>
     </section>
 
     <section class="portfolio wrapper">
-      <div class="port">
-        <a href="#" class="proj">
+    <div class="portbox">
+        <a href="#" class="proj" id="proj1">
           <p>Project 1</p>
-        </a>
-      </div>
-      <div class="port">
+        </a> 
         <a href="#" class="proj">
           <p>Project 2</p>
         </a>
-      </div>
-      <div class="port">
         <a href="#" class="proj">
           <p>Project 3</p>
         </a>
-      </div>
-      <a href="#" class="more-portfolio">See more!</a>
+    </div>
+      <a href="#" class="more-intro"> See more </a>
     </section>
+
   </main>
 
-  <footer class="footer wrapper">
-    <p class="endnote">Great to meet you! Please follow me on social media so we can keep in touch. Cheers!</p>
+  <footer class="footer">
+    <div class="wrapper">
+    <p class="endnote">Pleasure meeting you! Please follow me on social media so we can keep in touch. Cheers!</p>
     <ul class="social">
-      <li><a href="#" class="INSTA"><i class="fa-brands fa-instagram-square fa-3x"></i></a></li>
-      <li><a href="#" class="LINK"><i class="fa-brands fa-linkedin"></i></a></li>
-      <li><a href="#" class="GIT"><i class="fa-brands fa-github-square"></i></a></li>
-      <li><a href="#" class="FB"><i class="fa-brands fa-facebook-square"></i></a></li>
+      <li><a href="https://www.instagram.com/la_bellali/" class="INSTA"><i class="fa-brands fa-instagram-square fa-3x"></i></a></li>
+      <li><a href="http://www.linkedin.com/in/bella-li-helloworld" class="LINK"><i class="fa-brands fa-linkedin fa-3x"></i></a></li>
+      <li><a href="https://github.com/floatingtortoise" class="GIT"><i class="fa-brands fa-github-square fa-3x"></i></a></li>
+      <li><a href="#" class="FB"><i class="fa-brands fa-facebook-square fa-3x"></i></a></li>
     </ul>
     <form action="/form-handler" method="POST" class="submit">
-      <p>Enter some text here:</p>
-      <textarea name="text-input">hello world</textarea>
-      <br />
-      <input type="submit" />
+      <p>Say something:</p>
+      <textarea name="text-input-1">hello...</textarea>
+      <textarea name="text-input-2">world...</textarea>
+      <br/>
+      <input type="submit"/>
     </form>
-    <p class="copyright">© Yiling Li</p>
+
+    <div class="submit">
+        <button onclick="getTime()">record time</button>
+        <p id="timeShown"></p>
+    </div>
+
+    <div class="submit">
+        <textarea name="email-input">your email address</textarea>
+        <textarea name="message-input">leave your message here...</textarea>
+        <button onclick="getInfo()">SEND</button>
+        <p id="displayedMessage"></p>
+    </div>
+
+    <p class="copyright">© Copyright belongs to Yiling Li</p>
+    <br clear="all" />
+    </div>
   </footer>
-  </div>
+
+</script>
 </body>
 
 </html>
