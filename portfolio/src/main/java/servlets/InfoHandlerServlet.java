@@ -1,4 +1,4 @@
-package com.google.sps.servlets;
+package servlets;
 
 import java.io.IOException;
 import java.net.http.HttpRequest;

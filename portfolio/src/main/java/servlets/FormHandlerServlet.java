@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.google.sps.servlets;
+package servlets;
 
 import java.io.IOException;
 import javax.servlet.annotation.WebServlet;

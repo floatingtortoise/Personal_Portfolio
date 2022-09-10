@@ -44,7 +44,7 @@ body {
   }
   
   .img-space{
-    background-image: url(photo_me.png);
+    background-image: url(WebstormProjects/Personal_Portfolio/portfolio/src/main/files/photo_me.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 425px;
