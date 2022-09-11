@@ -1,98 +1,139 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://kit.fontawesome.com/908160b183.js" crossorigin="anonymous"></script>
-  <script src="script.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anek+Latin&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth@8..144,100;8..144,130&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Quintessential&family=Titillium+Web:ital,wght@1,320; 1,520&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>main page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/908160b183.js" crossorigin="anonymous"></script>
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
 </head>
 
+
 <body>
-  <header class="header">
-    <div class="wrapper">
-      <a href="#" class="return-home"><i class="fa-solid fa-house-chimney fa-3x"></i></a>
-      <nav class="main-nav">
-        <i class="fa-solid fa-bars fa-3x"></i>
-      </nav>
+<header class="bg-light">
+    <!------------- navbar --------------->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <!-- main-menu-->
+            <a href="#" class="navbar-brand">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" fill="currentColor" class="bi bi-house-door" viewBox="0 1.5 16 18">
+                    <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+                </svg>
+                <strong>Home</strong>
+            </a>
+            <!-- toggle-button-->
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- toggle-bar-->
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--------------- intro space ----------------->
+    <div class="position-relative">
+        <img src="https://wallpapercave.com/wp/wp8521301.jpg" alt="no pic" class="d-block bg-img position-relative overlay overlay-dark" width="100%" height="330">
+        <img src="../files/photo_me.png" alt="no pic" class="img-space rounded-circle mx-auto d-block border-light position-absolute" width="330" height="330">
     </div>
-  </header>
+</header>
 
-  <main>
-    <section class="intro">
-      <div class="rect-space"></div>
-      <div class="img-space"></div>
-      <div class="selfintro wrapper">
-        <h2>Bella's <b>Portfolio</b></h2>
-        <h4>Hi! I'm Bella Li, an undergraduate student studying Computer Science and Philosophy at Emory Univeristy.</h4>
-      <a href="#" class="more-intro"> Learn more </a>
-      </div>
-    </section>
-
-    <section class="transition wrapper">
-      <div class="line"></div>
-      <div class="arrow"></div>
-      <p class="port-direct">~ My Portfolio ~</p>
-    </section>
-
-    <section class="portfolio wrapper">
-    <div class="portbox">
-        <a href="#" class="proj" id="proj1">
-          <p>Project 1</p>
-        </a> 
-        <a href="#" class="proj">
-          <p>Project 2</p>
-        </a>
-        <a href="#" class="proj">
-          <p>Project 3</p>
-        </a>
+<main>
+    <div class="bg-light pt-5">
+        <div class="container mx-auto">
+            <div class="mt-5 text-center">
+                <h2 class="pt-5 fw-light fs-1 intro1">Hi, I am  <b class="fw-bold">Bella Li</b>.</h2>
+                <h4 class="pt-4 fw-light fs-5 intro2 lh-base">
+                    I am a Computer Science and Philosophy student at Emory Univeristy in my junior year.<br>
+                    I specialize in full-stack development with a focus on the front-end side.
+                </h4>
+                <button href="#" type="button" class="btn btn-outline-dark rounded-pill more-intro text-uppercase fs-6 fw-bold py-2 px-4"> Learn more </button>
+            </div>
+        </div>
     </div>
-      <a href="#" class="more-intro"> See more </a>
-    </section>
-
-  </main>
-
-  <footer class="footer">
-    <div class="wrapper">
-    <p class="endnote">Pleasure meeting you! Please follow me on social media so we can keep in touch. Cheers!</p>
-    <ul class="social">
-      <li><a href="https://www.instagram.com/la_bellali/" class="INSTA"><i class="fa-brands fa-instagram-square fa-3x"></i></a></li>
-      <li><a href="http://www.linkedin.com/in/bella-li-helloworld" class="LINK"><i class="fa-brands fa-linkedin fa-3x"></i></a></li>
-      <li><a href="https://github.com/floatingtortoise" class="GIT"><i class="fa-brands fa-github-square fa-3x"></i></a></li>
-      <li><a href="#" class="FB"><i class="fa-brands fa-facebook-square fa-3x"></i></a></li>
-    </ul>
-    <form action="/form-handler" method="POST" class="submit">
-      <p>Say something:</p>
-      <textarea name="text-input-1">hello...</textarea>
-      <textarea name="text-input-2">world...</textarea>
-      <br/>
-      <input type="submit"/>
-    </form>
-
-    <div class="submit">
-        <button onclick="getTime()">record time</button>
-        <p id="timeShown"></p>
+    <div class="my-5 pt-4 pb-3">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <!-- proj 1-->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="projimg" src="../files/sensitext.png"/>
+                        <div class="card-body">
+                            <p class="card-text">An android text analysis app for users to retrieve multifaceted sentiment analysis based on text input.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <button type="button" class="btn btn-sm btn-outline-secondary video-btn"
+                                        data-bs-toggle="modal" data-src="https://streamable.com/7ijiec" data-bs-target="#myModal">Run
+                                </button>
+                                <div class="btn-group">
+                                    <a href="https://github.com/floatingtortoise/SensiTextApp" type="button" class="btn btn-sm btn-outline-secondary">GitHub</a>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">More Info</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proj 2-->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="projimg" src="../files/journey.png"/>
+                        <div class="card-body">
+                            <p class="card-text">A full-stack website that integrates different public transportation systems in New York and dynamically displays route suggestions for users</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a type="button" href="https://summer22-sps-5.uc.r.appspot.com/" class="btn btn-sm btn-outline-secondary">Run</a>
+                                <div class="btn-group">
+                                    <a href="https://github.com/swu147/sps-project-journey" type="button" class="btn btn-sm btn-outline-secondary">GitHub</a>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">More Info</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- proj 3-->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="projimg" src="../files/portfolio.png"/>
+                        <div class="card-body">
+                            <p class="card-text">My portfolio website featuring my academic background, projects, and personal thoughts</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a type="button" href="https://yli-sps-summer22.uc.r.appspot.com/" class="btn btn-sm btn-outline-secondary">Run</a>
+                                <div class="btn-group">
+                                    <a href="https://github.com/floatingtortoise/Personal_Portfolio" type="button" class="btn btn-sm btn-outline-secondary">GitHub</a>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">More Info</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="submit">
-        <textarea name="email-input">your email address</textarea>
-        <textarea name="message-input">leave your message here...</textarea>
-        <button onclick="getInfo()">SEND</button>
-        <p id="displayedMessage"></p>
+</main>
+
+<footer class="bg-light pt-5">
+    <div class="container text-center">
+        <p class="pt-4 fw-light fs-6 intro2 lh-base">Please follow me on social media so we can keep in touch. Cheers!</p>
+            <ul class="row justify-content-center mt-5">
+                <li class="col-1"><a href="https://www.instagram.com/la_bellali/" class="INSTA"><i class="fa-brands fa-instagram-square fa-3x"></i></a></li>
+                <li class="col-1"><a href="http://www.linkedin.com/in/bella-li-helloworld" class="LINK"><i class="fa-brands fa-linkedin fa-3x"></i></a></li>
+                <li class="col-1"><a href="https://github.com/floatingtortoise" class="GIT"><i class="fa-brands fa-github-square fa-3x"></i></a></li>
+            </ul>
     </div>
+    <p class="copyright fw-light intro2 lh-base text-center pt-5 pb-4">© Copyright belongs to Yiling Li</p>
+</footer>
 
-    <p class="copyright">© Copyright belongs to Yiling Li</p>
-    <br clear="all" />
-    </div>
-  </footer>
-
-</script>
-</body>
-
-</html>
+</body></html>
