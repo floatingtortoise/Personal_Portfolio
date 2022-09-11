@@ -1,6 +1,8 @@
-# Google Software Product Sprint
+# Personal Portfolio
 
 
 Welcome!
 
-This repo contains Bella Li's portfolio and projects in Google Software Product Sprint.
+This repo shows my portfolio's codes
+
+This website is made with java, html/css/javascript, bootstrap
